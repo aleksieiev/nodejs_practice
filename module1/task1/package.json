@@ -1,0 +1,19 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "Module 1 home tasks.",
+  "main": "task1.js",
+  "scripts": {
+    "task1": "nodemon task1.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

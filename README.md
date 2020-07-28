@@ -6,6 +6,6 @@ I'll try to add each module under separate directory but can't guarantee it beca
 
 ### Table of contents
 
-[Module 1](1):  Basics. Node.js fundamental theory.
+[Module 1][1]:  Basics. Node.js fundamental theory.
 
 [1]: module1
