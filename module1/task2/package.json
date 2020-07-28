@@ -1,0 +1,19 @@
+{
+  "name": "task2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task2.js",
+  "scripts": {
+    "task2": "nodemon task2.js",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "jest": "^26.1.0"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
