@@ -1,9 +1,18 @@
-const dataWriter = (data) =>  new Promise((resolve) => {
-    console.log('from promise');
-    console.log(data);
+const fs = require('fs');
+
+const init = (path) => {
+    return fs.createWriteStream(path);
+}
+
+const append = (writeStream, data) => new Promise((resolve) => {
+    writeStream.write(JSON.stringify(data) + '\n');
     resolve();
 });
 
+const end = (writeStream) => writeStream.end();
+
 module.exports = {
-    dataWriter
+    init,
+    append,
+    end
 }
