@@ -116,3 +116,6 @@ dist
 .pnp.*
 
 **/*/package-lock.json
+
+# Task 2-related files
+module1/task2/resources/*.txt
