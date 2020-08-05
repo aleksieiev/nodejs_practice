@@ -119,3 +119,6 @@ dist
 
 # Task 2-related files
 module1/task2/resources/*.txt
+
+# Task 3-related files
+module1/task3/*.txt
