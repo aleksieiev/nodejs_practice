@@ -4,10 +4,7 @@ const init = (path) => {
     return fs.createWriteStream(path);
 }
 
-const append = (writeStream, data) => new Promise((resolve) => {
-    writeStream.write(JSON.stringify(data) + '\n');
-    resolve();
-});
+const append = (writeStream, data) => writeStream.write(JSON.stringify(data) + '\n');
 
 const end = (writeStream) => writeStream.end();
 
